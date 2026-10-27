@@ -1,0 +1,158 @@
+import { FeatureCardData, QuizQuestion, Testimonial, FAQItem } from './types';
+
+export const HERO_DATA = {
+  title: "BLACK AUTONOMIA NO INGLÊS",
+  subtitle: "Participe da maior Black Friday da Autonomia da minha história e acesse a oportunidade única para finalmente ganhar autonomia para conversar em Inglês.",
+  ctaText: "QUERO GARANTIR AGORA",
+  ctaLink: "https://form.respondi.app/wPbFXvIj",
+  heroBgImage: "/bg-hero.png",
+  stats: [
+    { label: "Alunos Testados", value: "+10.000" },
+    { label: "Precisão do Teste", value: "98.5%" },
+    { label: "Tempo de Resposta", value: "3 min" },
+  ]
+};
+
+export const FEATURE_CARDS: FeatureCardData[] = [
+  {
+    id: "imersao",
+    title: "IMERSÃO",
+    description: "Estude e pratique Inglês no seu tempo/horário, mas com direcionamento, praticando 80% e com meu acompanhamento.",
+    tag: "FLEXÍVEL",
+    badgeIcon: "BookOpen",
+    bgImage: "/IMG_0249 (1).jpg",
+    buttonText: "CONHECER A IMERSÃO",
+    link: "https://form.respondi.app/hYLuTFiC",
+    highlights: [
+      "Estude no seu próprio ritmo e horário",
+      "Metodologia focada em 80% de prática ativa",
+      "Direcionamento e acompanhamento com Ítalo Silas"
+    ],
+    ctaVariant: "blue"
+  },
+  {
+    id: "aceleracao",
+    title: "ACELERAÇÃO",
+    description: "Acelere sua autonomia através de uma imersão de inglês fora da sala e com encontros semanais de conversação ao vivo.",
+    tag: "MAIS BUSCADO",
+    badgeIcon: "Zap",
+    bgImage: "/WhatsApp Image 2026-10-08 at 15.25.53.jpeg",
+    buttonText: "CONHECER A ACELERAÇÃO",
+    link: "https://form.respondi.app/cuKciSUG",
+    highlights: [
+      "Imersão prática fora da sala de aula",
+      "Encontros semanais de conversação ao vivo",
+      "Desenvolvimento acelerado de autonomia"
+    ],
+    ctaVariant: "purple",
+    popular: true
+  },
+  {
+    id: "mentoria",
+    title: "MENTORIA",
+    description: "Seja acompanhado individualmente e de forma exclusiva para desenvolver sua autonomia no inglês.",
+    tag: "EXCLUSIVO",
+    badgeIcon: "Award",
+    bgImage: "/WhatsApp Image 2025-08-19 at 08.08.14-1.jpg",
+    buttonText: "CONHECER A MENTORIA",
+    link: "https://form.respondi.app/ZklI9aa4",
+    highlights: [
+      "Acompanhamento individual e exclusivo",
+      "Foco total nos seus objetivos pessoais ou profissionais",
+      "Evolução rápida e personalizada"
+    ],
+    ctaVariant: "green"
+  }
+];
+
+export const QUIZ_QUESTIONS: QuizQuestion[] = [
+  {
+    id: 1,
+    question: "Como você diria 'Eu moro aqui há 3 anos' em inglês?",
+    options: [
+      { text: "I live here for 3 years", level: "A1" },
+      { text: "I have been living here for 3 years", level: "B2" },
+      { text: "I am living here since 3 years", level: "A2" },
+      { text: "I lived here since 3 years ago", level: "B1" }
+    ]
+  },
+  {
+    id: 2,
+    question: "Qual frase soaria mais natural ao fazer um pedido em um restaurante no exterior?",
+    options: [
+      { text: "I want a coffee please", level: "A1" },
+      { text: "Could I get a coffee, please?", level: "B1" },
+      { text: "Give me one coffee right now", level: "A1" },
+      { text: "I would appreciate if you bring coffee", level: "B2" }
+    ]
+  },
+  {
+    id: 3,
+    question: "Se o oficial de imigração perguntar 'What is the purpose of your visit?', o que ele quer saber?",
+    options: [
+      { text: "Quanto dinheiro você tem na carteira", level: "A1" },
+      { text: "O motivo principal da sua viagem", level: "B1" },
+      { text: "Onde você comprou sua passagem de avião", level: "A2" },
+      { text: "Quantas horas durou o seu vôo", level: "A1" }
+    ]
+  }
+];
+
+export const TESTIMONIALS: Testimonial[] = [
+  {
+    id: "1",
+    name: "Mariana Costa",
+    role: "Viajante e Médica",
+    avatar: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+    content: "Fazer o teste me mostrou exatamente onde eu travava. Com a mentoria do Ítalo passei pela imigração nos EUA no mês passado conversando sem gaguejar!",
+    rating: 5,
+    highlight: "Passou na imigração dos EUA sem travar!"
+  },
+  {
+    id: "2",
+    name: "Lucas Andrade",
+    role: "Engenheiro de Software",
+    avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80",
+    content: "O material do Grupo VIP é sensacional. Lives objetivas e práticas sem enrolação gramatical chata.",
+    rating: 5,
+    highlight: "Lives semanais práticas e diretas ao ponto"
+  },
+  {
+    id: "3",
+    name: "Patricia Silveira",
+    role: "Empresária",
+    avatar: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&auto=format&fit=crop&q=80",
+    content: "O treinamento de Inglês para Aeroporto salvou minhas férias na Europa. Valeu cada segundo investido!",
+    rating: 5,
+    highlight: "Viagem dos sonhos sem medo de falar"
+  }
+];
+
+export const FAQ_ITEMS: FAQItem[] = [
+  {
+    category: "teste",
+    question: "O teste de nível de inglês é realmente gratuito?",
+    answer: "Sim! O teste é 100% gratuito e online. Leva em média 3 a 5 minutos para ser concluído e você recebe o resultado com a recomendação ideal para o seu momento."
+  },
+  {
+    category: "cursos",
+    question: "Para quem é indicado o curso de 'Inglês para Aeroporto'?",
+    answer: "É ideal para qualquer pessoa que pretenda viajar para o exterior e queira ter total autonomia em aeroportos, voos, conexões, hotéis, compras e alfândega, mesmo que esteja começando do zero."
+  },
+  {
+    category: "mentoria",
+    question: "Como funciona a Mentoria de 12 Meses com Ítalo Silas?",
+    answer: "A mentoria oferece um plano personalizado de aprendizado focado no seu objetivo pessoal ou profissional. Você tem acompanhamento próximo, feedbacks contínuos e encontros para acelerar sua fluência."
+  },
+  {
+    category: "cursos",
+    question: "Como faço para entrar no Grupo VIP do WhatsApp?",
+    answer: "Basta clicar no botão do 'Grupo VIP' nesta página. O acesso é instantâneo e gratuito, permitindo que você participe das lives, receba dicas de áudio e baixe PDFs de estudo."
+  }
+];
+
+export const ENGLISH_LEVELS_INFO = [
+  { level: "A1/A2", title: "Iniciante / Básico", desc: "Compreende frases simples do dia a dia. Precisa de apoio para manter diálogos fluídos.", color: "from-blue-500 to-cyan-400" },
+  { level: "B1/B2", title: "Intermediário / Independente", desc: "Consegue se comunicar bem em viagens e trabalho. Busca falar sem pensar na tradução.", color: "from-purple-500 to-indigo-500" },
+  { level: "C1/C2", title: "Avançado / Fluente", desc: "Expressa-se espontaneamente e com extrema precisão em qualquer contexto.", color: "from-emerald-500 to-teal-400" },
+];
